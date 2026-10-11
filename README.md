@@ -25,3 +25,7 @@ from src.performance_demo import rank_values
 
 print(rank_values([2, 3, 4, 5, 6, 7, 7, 10]))
 ```
+
+
+## Implementation note
+The memoized _is_prime helper is the selected low-effort, high-impact optimization in this project.
